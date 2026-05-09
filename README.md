@@ -118,6 +118,8 @@ XAMPP
 
 To build a secure, scalable, and database-driven e-commerce system demonstrating real-world use of RDBMS concepts, web development, and backend integration.
 
+- Click here to watch the complete project demonstration video: https://youtu.be/zsMRHkqFOt8
+
 ## 📜 License
 
 Academic Project Only.
