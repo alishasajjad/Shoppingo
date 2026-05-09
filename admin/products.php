@@ -130,7 +130,7 @@ $result = mysqli_query($con, $query);
 
     <div class="container">
         <?php if(isset($_GET['success'])) { ?>
-        <div class="alert alert-success">Product has been deleted successfully!</div>
+        <div class="alert alert-success">Product Page has been updated!</div>
         <?php } ?>
 
         <div class="row">
