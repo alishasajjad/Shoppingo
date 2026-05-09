@@ -72,50 +72,32 @@ Foreign keys ensure data integrity between tables.
 ## 💻 Implementation
 
 ### Database Connection
-```php
 $con = mysqli_connect("localhost", "root", "", "shop");
-Example Queries
+
+## Example Queries
+
 SELECT * FROM users WHERE email = ? AND password = ?;
 INSERT INTO items (name, price, stock) VALUES (?, ?, ?);
 INSERT INTO users_items (user_id, item_id, status) VALUES (?, ?, 'Added to cart');
-📁 Project Structure
-SHOPPINGO/
-│
-├── database/
-│   └── shop.sql
-│
-├── connection.php
-├── index.php
-├── login.php
-├── register.php
-│
-├── admin/
-│   ├── dashboard.php
-│   ├── products.php
-│   └── orders.php
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-⚙️ Installation Guide
+
+## ⚙️ Installation Guide
+
 1. Create Database
 CREATE DATABASE shop;
 2. Import SQL File
 mysql -u root -p shop < database/shop.sql
-3. Configure Connection
+4. Configure Connection
 $con = mysqli_connect("localhost", "root", "", "shop");
-4. Run Project
+6. Run Project
 
-Start XAMPP:
-
+## Start XAMPP:
 Apache ON
 MySQL ON
 
-Open:
+## Open:
+http://localhost/online-shopping/index.php
 
-http://localhost/SHOPPINGO/
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 Payment Gateway Integration
 Wishlist Feature
 Product Reviews & Ratings
@@ -123,17 +105,21 @@ Email/SMS Notifications
 Admin Analytics Dashboard
 Mobile Application
 AI-based Recommendations
-🛠️ Technologies Used
+
+## 🛠️ Technologies Used
 PHP
 MySQL
 HTML5
 CSS3
 JavaScript
 XAMPP
-🎯 Objective
+
+## 🎯 Objective
 
 To build a secure, scalable, and database-driven e-commerce system demonstrating real-world use of RDBMS concepts, web development, and backend integration.
 
-📜 License
+## 📜 License
 
 Academic Project Only.
+
+If you find this project useful, please consider starring the repository and supporting its development.
